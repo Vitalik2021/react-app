@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tab-content {
+    width: 30%;
+    height: 90px;
+    background-color: black;
+    color: #cccccc;
+    position: relative;
+    bottom: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    position: absolute;
+    background: aquamarine;
+    width: 100%;
+    text-align: center;
+}
+
+.main {
+    position: relative;
+    top: 42px;
+    background: yellow;
+    width: 70%;
+    height: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d-main {
+    display: flex;
+    justify-content: flex-end;
+
+}
